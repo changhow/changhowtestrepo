@@ -2,13 +2,17 @@ import turtle
 import random
 
 wn = turtle.Screen()
+wn.setup(600,800,0,0)
 wn.bgcolor("black")
 wn.title("bouncing ball simulator")
 wn.tracer(0.01)
 
+
+
+ 
 balls = []
 
-for _ in range(1):
+for _ in range(25):
     balls.append(turtle.Turtle())
 
 colors = ["red", "blue", "yellow", "green", "white", "purple"]
@@ -28,7 +32,7 @@ for ball in balls:
     ball.da = random.randint(-5, 5)
 
 gravity = 0.1
-drag = 0.1
+drag = 0.0
 
 while True:
     wn.update()
