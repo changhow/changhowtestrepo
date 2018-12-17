@@ -4,7 +4,7 @@ import random
 wn = turtle.Screen()
 wn.bgcolor("black")
 wn.title("bouncing ball simulator")
-wn.tracer(0.1)
+wn.tracer(0.01)
 
 balls = []
 
