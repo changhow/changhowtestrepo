@@ -1,8 +1,6 @@
 import turtle
 import random
 
-
-
 startx = 0
 starty = 0
 # number of bees mus be > 1
@@ -35,8 +33,8 @@ while True:
 
     for bee in bees:
         bee.forward(1)
-        angle = random.randint(-180, 180)
-        bee.left(angle)
+        #angle = random.randint(-180, 180)
+        #bee.left(angle)
         #bee.heading()
          
 
