@@ -4,7 +4,7 @@ import random
 startx = 0
 starty = 0
 # number of bees mus be > 1
-num_of_bees = 1
+num_of_bees = 2
 
 beeShape = "BEE/BeeImg.gif"
 # empty list to store bees agent
